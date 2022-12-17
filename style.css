@@ -16,15 +16,23 @@ html {
 
 body {
     min-height: 100vh;
-    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0 30px;
+    line-height: 25px;
+
 }
 
 h2 {
     text-transform: capitalize;
+}
+
+.name {
+    background-color: rgb(140, 106, 170);
+    padding: 20px;
+
 }
 
 .navigation {
@@ -33,12 +41,11 @@ h2 {
     line-height: 30px;
     float: left;
     width: 50%;
-
 }
 
 .pic {
-    padding: 20px;
-    border-radius: 90px;
+    padding: 30px;
+    border-radius: 110px;
 }
 
 .container {
@@ -53,10 +60,19 @@ h2 {
 
 section {
     width: 50%;
+    border-top: 3px solid rgb(140, 106, 170);
+
 }
 
 footer {
     background-color: white;
     text-align: center;
+    word-spacing: 20px;
+    margin: 0;
+}
 
+ul,
+li {
+    text-decoration: none;
+    list-style-type: none;
 }
