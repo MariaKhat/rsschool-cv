@@ -32,15 +32,26 @@ h2 {
 .name {
     background-color: rgb(140, 106, 170);
     padding: 20px;
+    color: rgb(252, 235, 247);
 
 }
 
 .navigation {
     list-style-type: none;
-    padding: 40px;
-    line-height: 30px;
+    padding: 20px;
+    line-height: 40px;
     float: left;
     width: 50%;
+}
+
+.nav-link {
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 20px solid;
+    border-right: 30px solid;
+    border-color: rgb(140, 106, 170);
+    background-color: rgb(140, 106, 170);
+    color: rgb(252, 235, 247);
 }
 
 .pic {
